@@ -6,13 +6,6 @@ View square is resized by scroll, and left click and right click is zoom in and 
 
 ![Demonstration](https://s7.gifyu.com/images/mandelbrot145bb7b67b63bd9d.gif)
 
-![Formula](https://wikimedia.org/api/rest_v1/media/math/render/svg/ea17613cecf92dbe8bb5f464a3862b08678ecd08)
-
-![X](https://wikimedia.org/api/rest_v1/media/math/render/svg/b18a3233ed63d7bff11463a0e6683b9a085a14a0)
-
-![Y](https://wikimedia.org/api/rest_v1/media/math/render/svg/94923ff5c86dcb580db28b4146ae1cdcfb93e9c6)
-
-
 # How compile
 
 With GNU c++ compiler just do.
