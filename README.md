@@ -6,6 +6,10 @@ View square is resized by scroll, and left click and right click is zoom in and 
 
 ![Demonstration](https://s7.gifyu.com/images/mandelbrot145bb7b67b63bd9d.gif)
 
+#PseudoCode for computing Mandelbrot given x and y.
+![X](https://wikimedia.org/api/rest_v1/media/math/render/svg/b18a3233ed63d7bff11463a0e6683b9a085a14a0)
+![Y](https://wikimedia.org/api/rest_v1/media/math/render/svg/94923ff5c86dcb580db28b4146ae1cdcfb93e9c6)
+
 
 # How compile
 
