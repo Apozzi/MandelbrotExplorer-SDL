@@ -10,7 +10,7 @@ Running in AMD R7 370 Series 4GB.
 
 # This uses GPU processing?
 Yes.
-This Kernel is send to CPU.
+This is the Kernel that is send to CPU.
 ```
 __kernel void MandelbrotPixel(__global float* c, __global float* a)
 {
