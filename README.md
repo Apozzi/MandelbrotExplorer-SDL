@@ -49,3 +49,6 @@ __kernel void MandelbrotPixel(__global float* c, __global float* a)
 With GNU c++ compiler just do.
 
 ``` g++ -std=c++11 main.cpp -o mandelbrot -lSDL2_ttf -lSDL2main -lSDL2 -lOpenGL ```
+
+# This code can be better?
+Yes, Basically there is a limitation of the number of decimal places in the float that limits the amount of zoom given in the set, to solve the problem i think of storing information in two variables (which would require a large number of "number tricks" similar to the BigInt and BigFloat libraries )
