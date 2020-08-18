@@ -8,6 +8,42 @@ View square is resized by scroll, and left click and right click is zoom in and 
 
 Running in AMD R7 370 Series 4GB.
 
+# This uses GPU processing?
+Yes.
+This Kernel is send to CPU.
+```
+__kernel void MandelbrotPixel(__global float* c, __global float* a)
+{
+ unsigned int max = 200;
+ unsigned int n = get_global_id(0);
+ float col = n % (int)(floor(a[4]));
+ float row = (int)(n / (int)(floor(a[4])));
+ float c_im = 0, c_re = 0;
+ float x = 0, y = 0;
+ if (a[5] == 0.0) {
+ c_im = a[0] - (row * a[2]);
+ c_re = a[1] + (col * a[3]);
+ }
+ if (a[5] == 1.0) {
+ x = a[6];
+ y = a[7];
+ }
+ int iteration = 0;
+ while (x*x+y*y <= 4 && iteration < max) {
+     float x_new = x*x - y*y;
+     y = 2*x*y + c_im;
+     x = x_new + c_re;
+     iteration++;
+ }
+ if (iteration > max) {
+   iteration = 255;
+ }
+ c[n] = iteration;
+}
+```
+
+
+
 # How compile
 
 With GNU c++ compiler just do.
