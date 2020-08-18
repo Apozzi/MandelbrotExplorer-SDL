@@ -6,7 +6,7 @@ View square is resized by scroll, and left click and right click is zoom in and 
 
 ![Demonstration](https://s7.gifyu.com/images/mandelbrot145bb7b67b63bd9d.gif)
 
-Running in AMD r7 370 Series 4GB.
+Running in AMD R7 370 Series 4GB.
 
 # How compile
 
