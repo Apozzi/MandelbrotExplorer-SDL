@@ -1,0 +1,1 @@
+g++ -std=c++11 main.cpp -o mandelbrot -lSDL2_ttf -lSDL2main -lSDL2 -lOpenGL
