@@ -4,7 +4,7 @@ Powered using SDL and OpenCL.
 
 View square is resized by scroll, and left click and right click is zoom in and zoom out.
 
-![Demonstration](https://s7.gifyu.com/images/mandelbrot145bb7b67b63bd9d.gif)
+![Demonstration](https://adeveloper-image-host.s3.us-east-2.amazonaws.com/mandelbrot.gif)
 
 Running in AMD R7 370 Series 4GB.
 
