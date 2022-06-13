@@ -58,7 +58,7 @@ if (renderer == nullptr){
 	return 1;
 }
 
-//----------------  Game Loop ----------------------
+//---------------- App Loop ----------------------
 SDL_Event e;
 bool quit = false;
 IoKeys* ioKeysController = new IoKeys();
