@@ -43,7 +43,6 @@ __kernel void MandelbrotPixel(__global float* c, __global float* a)
 ```
 
 
-
 # How compile
 
 With GNU c++ compiler just do.
